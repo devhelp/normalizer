@@ -29,4 +29,16 @@
     <rule ref="Zend.Debug.CodeAnalyzer"/>
 
     <rule ref="PEAR.Formatting.MultiLineAssignment"/>
+
+    <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
+        <exclude-pattern>tests/*</exclude-pattern>
+    </rule>
+
+    <rule ref="Squiz.Scope.MethodScope">
+        <exclude-pattern>tests/*</exclude-pattern>
+    </rule>
+
+    <rule ref="PSR1.Classes.ClassDeclaration">
+        <exclude-pattern>tests/*</exclude-pattern>
+    </rule>
 </ruleset>

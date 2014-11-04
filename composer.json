@@ -14,13 +14,13 @@
         }
     ],
     "autoload": {
-        "psr-0": { 
-            "Devhelp\\Normalizer": "src/"
+        "psr-4": {
+            "Devhelp\\Normalizer\\": "src/"
         }
     },
     "autoload-dev": {
-        "psr-0": {
-            "Devhelp\\Normalizer": ["tests/unit", "tests/integration"]
+        "psr-4": {
+            "Devhelp\\Normalizer\\": ["tests/unit"]
         }
     },
     "require": {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Devhelp\Normalizer\Configuration;
+namespace Devhelp\Normalizer\Fields\Source;
 
 
-use Devhelp\Normalizer\Filter\FilterChain;
+use Devhelp\Normalizer\Fields\Filter\FilterInterface;
 
 class Field
 {
@@ -28,11 +28,13 @@ class Field
         return $this->name;
     }
 
-    /**
-     * @return FilterChain
-     */
-    public function getFilterChain()
+    public function addFilter(FilterInterface $filter)
     {
-        return $this->filterChain;
+        $this->filterChain->add($filter);
+    }
+
+    public function filter($data)
+    {
+        return $this->filterChain->filter($data);
     }
 }
