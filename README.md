@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/devhelp/normalizer.png)](https://travis-ci.org/devhelp/normalizer) [![SensioLabsInsight](https://insight.sensiolabs.com/projects/xxxxxx/mini.png)](https://insight.sensiolabs.com/projects/xxxxxx)
+[![Build Status](https://travis-ci.org/devhelp/normalizer.png)](https://travis-ci.org/devhelp/normalizer)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/96d35769-955e-4823-8de9-3b576505b144/mini.png)](https://insight.sensiolabs.com/projects/96d35769-955e-4823-8de9-3b576505b144)
 
 ## Installation
 
